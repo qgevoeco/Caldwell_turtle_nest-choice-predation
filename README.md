@@ -19,7 +19,7 @@ or data package
 
 >Matthew E. Wolak. (2023). qgevoeco/Caldwell_turtle_nest-choice-predation: Initial release v1.0.0 (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7630637
 
-Data were also collected from the StreamCat Dataset and are located in this repositories `./streamCAT` folder. For information, please see the associated metadata [https://www.epa.gov/national-aquatic-resource-surveys/streamcat-dataset-readme](https://www.epa.gov/national-aquatic-resource-surveys/streamcat-dataset-readme). To cite the StreamCat data:
+Data were also collected from the StreamCat Dataset and are located in the `./streamCAT` folder of this repository. For information, please see the associated metadata [https://www.epa.gov/national-aquatic-resource-surveys/streamcat-dataset-readme](https://www.epa.gov/national-aquatic-resource-surveys/streamcat-dataset-readme). To cite the StreamCat data:
 
 >Hill, Ryan A., Marc H. Weber, Scott G. Leibowitz, Anthony R. Olsen, and Darren J. Thornbrugh, 2016. The Stream-Catchment (StreamCat) Dataset: A Database of Watershed Metrics for the Conterminous United States. Journal of the American Water Resources Association (JAWRA) 52:120-128. DOI: 10.1111/1752-1688.12372.
 
