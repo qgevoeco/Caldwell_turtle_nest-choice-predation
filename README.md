@@ -18,6 +18,8 @@ Column header descriptions for the datasets analyzed in the paper:
 
 #### "microhabitat.txt" file
 
+A tab-separated text file consisting of:
+
   - `SiteType` integer representing the categorization of site by human activit and/or disturbance. Values of `0` represent Low, `1` represent Intermediate, and `2` represent high human activity and/or disturbance at the site. See also the character representation in `HumDist`.
   
   - `siteAbbr` character string giving an abbreviated site name.
@@ -52,6 +54,7 @@ Column header descriptions for the datasets analyzed in the paper:
 
 #### "predation.txt" file
 
+A tab-separated text file consisting of:
   
   - `NestID` integer giving unique identity label to each experimental nest.
   
