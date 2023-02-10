@@ -1,5 +1,6 @@
 # Caldwell_turtle_nest-choice-predation
 
+[![DOI](https://zenodo.org/badge/600135781.svg)](https://zenodo.org/badge/latestdoi/600135781)
 
 Version controlled and editable source for the data and code supporting the paper
 __"Consistent nest site selection by turtles across habitats with varying levels of human disturbance"__ by _Molly Folkerts Caldwell, Jorge E. López-Pérez, Daniel A. Warner, and Matthew E. Wolak_.
