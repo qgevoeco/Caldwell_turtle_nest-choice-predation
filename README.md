@@ -11,7 +11,7 @@ __"Consistent nest site selection by turtles across habitats with varying levels
 
 If you use these data, please cite the data package 
 
->TBD
+>Matthew E. Wolak. (2023). qgevoeco/Caldwell_turtle_nest-choice-predation: Initial release v1.0.0 (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7630637
 
 ### Data metadata
 
