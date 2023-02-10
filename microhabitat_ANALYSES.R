@@ -27,7 +27,8 @@ library(nadiv)
 #setwd("<< Insert path on local computer >>")
 
 # load data
-microhab <- read.table(file = "microhabitat.txt", header = TRUE)
+microhab <- read.table(file = "microhabitat.txt", header = TRUE,
+  sep = "\t")  #<-- XXX important to include tab-separated
 
 ## Create subset of just artificial nests
 art <- microhab[which(microhab$NestRand == 1), ]
