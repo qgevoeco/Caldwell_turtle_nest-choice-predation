@@ -1,0 +1,91 @@
+NestID SiteName Depred SiteType HumDist RoundCat
+1 Notasulga 0 0 Low Round1
+2 Notasulga 1 0 Low Round1
+3 Notasulga 0 0 Low Round1
+4 Notasulga 0 0 Low Round1
+5 Notasulga 0 0 Low Round1
+6 Notasulga 0 0 Low Round2
+7 Notasulga 0 0 Low Round2
+8 Notasulga 0 0 Low Round2
+9 Notasulga 0 0 Low Round2
+10 Notasulga 0 0 Low Round2
+11 Notasulga 1 0 Low Round3
+12 Notasulga 0 0 Low Round3
+13 Notasulga 0 0 Low Round3
+14 Notasulga 0 0 Low Round3
+15 Notasulga 0 0 Low Round3
+16 S10 0 1 Intermediate Round1
+17 S10 0 1 Intermediate Round1
+18 S10 0 1 Intermediate Round1
+19 S10 0 1 Intermediate Round1
+20 S10 0 1 Intermediate Round1
+21 S10 0 1 Intermediate Round2
+22 S10 0 1 Intermediate Round2
+23 S10 0 1 Intermediate Round2
+24 S10 0 1 Intermediate Round2
+25 S10 0 1 Intermediate Round2
+26 S10 0 1 Intermediate Round3
+27 S10 1 1 Intermediate Round3
+28 S10 0 1 Intermediate Round3
+29 S10 0 1 Intermediate Round3
+30 S10 0 1 Intermediate Round3
+31 Red Barn 0 2 High Round1
+32 Red Barn 0 2 High Round1
+33 Red Barn 0 2 High Round1
+34 Red Barn 0 2 High Round1
+35 Red Barn 0 2 High Round1
+36 Red Barn 0 2 High Round2
+37 Red Barn 0 2 High Round2
+38 Red Barn 0 2 High Round2
+39 Red Barn 0 2 High Round2
+40 Red Barn 0 2 High Round2
+41 Red Barn 0 2 High Round3
+42 Red Barn 0 2 High Round3
+43 Red Barn 0 2 High Round3
+44 Red Barn 0 2 High Round3
+45 Red Barn 0 2 High Round3
+46 Oxbow 0 0 Low Round1
+47 Oxbow 1 0 Low Round1
+48 Oxbow 1 0 Low Round1
+49 Oxbow 0 0 Low Round1
+50 Oxbow 0 0 Low Round1
+51 Oxbow 0 0 Low Round2
+52 Oxbow 0 0 Low Round2
+53 Oxbow 0 0 Low Round2
+54 Oxbow 1 0 Low Round2
+55 Oxbow 0 0 Low Round2
+56 Oxbow 0 0 Low Round3
+57 Oxbow 0 0 Low Round3
+58 Oxbow 0 0 Low Round3
+59 Oxbow 0 0 Low Round3
+60 Oxbow 0 0 Low Round3
+61 S11 0 1 Intermediate Round1
+62 S11 0 1 Intermediate Round1
+63 S11 0 1 Intermediate Round1
+64 S11 0 1 Intermediate Round1
+65 S11 0 1 Intermediate Round1
+66 S11 0 1 Intermediate Round2
+67 S11 0 1 Intermediate Round2
+68 S11 0 1 Intermediate Round2
+69 S11 0 1 Intermediate Round2
+70 S11 0 1 Intermediate Round2
+71 S11 0 1 Intermediate Round3
+72 S11 0 1 Intermediate Round3
+73 S11 0 1 Intermediate Round3
+74 S11 0 1 Intermediate Round3
+75 S11 0 1 Intermediate Round3
+76 Town Creek 0 2 High Round1
+77 Town Creek 0 2 High Round1
+78 Town Creek 0 2 High Round1
+79 Town Creek 0 2 High Round1
+80 Town Creek 0 2 High Round1
+81 Town Creek 0 2 High Round2
+82 Town Creek 0 2 High Round2
+83 Town Creek 0 2 High Round2
+84 Town Creek 0 2 High Round2
+85 Town Creek 0 2 High Round2
+86 Town Creek 0 2 High Round3
+87 Town Creek 0 2 High Round3
+88 Town Creek 0 2 High Round3
+89 Town Creek 0 2 High Round3
+90 Town Creek 0 2 High Round3

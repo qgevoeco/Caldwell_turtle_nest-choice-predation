@@ -8,7 +8,9 @@ __"Consistent nest site selection by turtles across habitats with varying levels
 
 ### Data citation
 
-If you use these data, please cite the data package TBD
+If you use these data, please cite the data package 
+
+>TBD
 
 ### Data metadata
 
@@ -47,6 +49,22 @@ Column header descriptions for the datasets analyzed in the paper:
   - `urbPC1` numeric indicating the principal components analysis score for each observation on the first principal components axis (unitless).   
     
   - `urbPC2` numeric indicating the principal components analysis score for each observation on the second principal components axis (unitless). Note, this was not used in any analyses. 
+
+#### "predation.txt" file
+
+  
+  - `NestID` integer giving unique identity label to each experimental nest.
+  
+  - `SiteName` character string for the name of each study site.
+  
+  - `Depred` integer that indicates if a nest was `1` depredated or `0` not.
+  
+  - `SiteType` integer representing the categorization of site by human activit and/or disturbance. Values of `0` represent Low, `1` represent Intermediate, and `2` represent high human activity and/or disturbance at the site. See also the character representation in `HumDist`.
+
+  - `HumDist` character string representing the categorization of site by human activity and/or disturbance. See also the integer representation in `SiteType`.
+  
+  - `RoundCat` character indicating which round (1-3) of the experiment in which each nest occurred.
+
 
 
 ## Changes
