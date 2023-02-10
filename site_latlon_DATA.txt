@@ -1,0 +1,16 @@
+Site	siteAbbr	lat	lon	streamCAT_comid1	streamCAT_comid2	streamCAT_comid3	Notes
+Town Creek pond	tcpond	32.582539	-85.476735	21712424	NA	NA	
+Kiesel Park	kieselpark	32.58704	-85.542433	21712448	NA	NA	
+Longleaf Villas	longleaf	32.570633	-85.506619	21712484	21712830	NA	2 streamCAT segments equidistant from Longleaf villas pond
+Red Barn	redbarn	32.594622	-85.675574	21713168	NA	NA	2 ponds (VCOM and Red Barn) share the same nearest segment
+Fisheries S10	fisheriesS10	32.669121	-85.508682	21711750	NA	NA	3 ponds (S10 and S8east and S11) share the same nearest segment
+Fisheries S11	fisheriesS11	32.671127	-85.507211	21711750	NA	NA	3 ponds (S10 and S8east and S11) share the same nearest segment
+Fisheries S2	fisheriesS2	32.683346	-85.516154	21711664	NA	NA	3 ponds (S2 and 23 and 24) all share the same nearest segment
+Fisheries S23	fisheriesS23	32.678296	-85.51782	21711664	NA	NA	3 ponds (S2 and 23 and 24) all share the same nearest segment
+Fisheries S24	fisheriesS24	32.680441	-85.518099	21711664	NA	NA	3 ponds (S2 and 23 and 24) all share the same nearest segment
+Fisheries S29	fisheriesS29	32.669498	-85.501004	21711740	21713156	NA	2 streamCAT segments are equidistant from pond S29
+Fisheries S30	fisheriesS30	32.674933	-85.495792	21713156	NA	NA	
+Fisheries S8 east	fisheriesS8e	32.672734	-85.507651	21711750	NA	NA	3 ponds (S10 and S8east and S11) share the same nearest segment
+Fisheries S8 west	fisheriesS8w	32.672084	-85.509432	21713196	NA	NA	
+TNF Oxbow	tnfoxbow	32.439472	-85.635536	21714932	NA	NA	
+Notasulga	notasulga	NA	NA	21713338	NA	NA	
