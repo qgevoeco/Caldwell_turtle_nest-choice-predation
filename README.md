@@ -19,6 +19,11 @@ or data package
 
 >Matthew E. Wolak. (2023). qgevoeco/Caldwell_turtle_nest-choice-predation: Initial release v1.0.0 (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7630637
 
+Data were also collected from the StreamCat Dataset and are located in this repositories `./streamCAT` folder. For information, please see the associated metadata [https://www.epa.gov/national-aquatic-resource-surveys/streamcat-dataset-readme](https://www.epa.gov/national-aquatic-resource-surveys/streamcat-dataset-readme). To cite the StreamCat data:
+
+>Hill, Ryan A., Marc H. Weber, Scott G. Leibowitz, Anthony R. Olsen, and Darren J. Thornbrugh, 2016. The Stream-Catchment (StreamCat) Dataset: A Database of Watershed Metrics for the Conterminous United States. Journal of the American Water Resources Association (JAWRA) 52:120-128. DOI: 10.1111/1752-1688.12372.
+
+
 ### Data metadata
 
 Column header descriptions for the datasets analyzed in the paper:
@@ -75,7 +80,20 @@ A tab-separated text file consisting of:
   
   - `RoundCat` character indicating which round (1-3) of the experiment in which each nest occurred.
 
+#### "site_latlon_DATA.txt" file
 
+A tab-separated text file consisting of:
+
+  - `Site` character string for the name of each study site.
+  
+  - `siteAbbr` character string giving an abbreviated site name.
+  
+  - `lat` and `lon` numeric latitude and longitude GPS coordinates. The Notasulga site intentionally has NA values to protect the privacy of the landowners.
+  
+  - `streamCAT_comid1`, `streamCAT_comid2`, and ``streamCAT_comid3` integer Stream CAT stream segment unique identifiers. Where a site is between stream segments, multiple segments are attributed to the site and the average is taken.
+  
+  - `Notes` character string with notes about the sites.
+  
 
 ## Changes
 For ease of reference, an overview of significant changes to be noted below. Tag comments with commits or issues, where appropriate.
