@@ -29,6 +29,8 @@ library(nadiv)
 # load data
 microhab <- read.table(file = "microhabitat.txt", header = TRUE)
 
+## Create subset of just artificial nests
+art <- microhab[which(microhab$NestRand == 1), ]
 
 
 
@@ -46,10 +48,77 @@ microhab <- within(microhab, {
   scCanopy <- scale(Canopy)
 })
 
+
 # order based on nest type for consistency (and for asreml)
 microhab <- microhab[order(microhab$NestRandFac), ]
 
+# now for artificial nest subset
+art <- within(art, {
+  NestRandFac <- as.factor(NestRand)  #<-- create new column/don't write over
+  SiteTypeFac <- as.factor(SiteType)
+  NestClusterFac <- as.factor(NestCluster)
+  scibdepth <- scale(ibdepth)
+  scCanopy <- scale(Canopy)
+})
+
+
 ############################################################################
+
+
+##################################
+# ARTIFICIAL NEST SUBSET ANALYSES
+##################################
+artmod.Slope <- lm(Slope ~ SiteTypeFac, data = art, na.action = na.omit)
+  summary(artmod.Slope)
+  anova(artmod.Slope)
+
+
+artmod.Canopy <- lm(Canopy ~ SiteTypeFac, data = art, na.action = na.omit)
+  summary(artmod.Canopy)
+  anova(artmod.Canopy)
+
+
+# Temperature variables also include continuous covariate of iButton depth
+artmod.dailyMean_C <- lm(dailyMean_C ~ SiteTypeFac + ibdepth, data = art,
+    na.action = na.omit)
+  summary(artmod.dailyMean_C)
+  anova(artmod.dailyMean_C)
+
+
+artmod.dailyMax_C <- lm(dailyMax_C ~ SiteTypeFac + ibdepth, data = art,
+    na.action = na.omit)
+  summary(artmod.dailyMax_C)
+  anova(artmod.dailyMax_C)
+
+
+artmod.dailyMin_C <- lm(dailyMin_C ~ SiteTypeFac + ibdepth, data = art,
+    na.action = na.omit)
+  summary(artmod.dailyMin_C)
+  anova(artmod.dailyMin_C)
+
+
+artmod.range <- lm(range ~ SiteTypeFac + ibdepth, data = art,
+    na.action = na.omit)
+  summary(artmod.range)
+  anova(artmod.range)
+
+
+############################################################################
+############################################################################
+
+
+
+############################################################################
+############################################################################
+
+
+
+
+
+
+
+
+
 
 
 
