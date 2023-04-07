@@ -13,7 +13,7 @@ If you use these data, please cite the publication (preference)
 
 >M. Folkerts Caldwell, J.E. López-Pérez, D.A. Warner, and M.E. Wolak. 2023. Consistent
 nest site selection by turtles across habitats with varying levels of human disturbance.
-_Diversity_
+_Diversity_ 15(2):275. [https://doi.org/10.3390/d15020275](https://doi.org/10.3390/d15020275).
 
 or data package 
 
